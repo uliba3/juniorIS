@@ -1,5 +1,4 @@
 # juniorIS
-## Project Summary
 
 ### Overview
 This project focuses on evaluating the performance of the gemma-2b-it model on the MMLU dataset in terms of number of shots. The MMLU dataset consists of multiple-choice questions from various subject areas, categorized into Humanities, Social Science, STEM, and others.
@@ -13,3 +12,13 @@ This project focuses on evaluating the performance of the gemma-2b-it model on t
 
 ### Prompt Format
 - **Prompt Structure**: The experiment utilized the same prompt format as the original MMLU dataset paper. Each prompt started with the statement "The following are multiple-choice questions (with answers) about [subject]." Up to 10 demonstration examples with answers were added to the prompt before appending the question. All prompts ended with "Answer: ".
+
+### Files
+- **gemma.ipynb**: Code to run gemma-2b-it on MMLU dataset. Expected to be run using Google Colab.
+- **dataAnalysis.ipynb**: Code to analyze the result from gemma.ipynb.
+
+### Getting started
+1. upload gemma.ipynb to Google Colab and also upload data.json to google drive path: /content/drive/MyDrive/Colab Notebooks/CS 200/data.json
+2. execute each cell from the top in Google Colab
+3. download updated data.json from Google Drive
+4. run extractField.py and dataAnalysis.ipynb in the same folder as data.json
