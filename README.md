@@ -16,6 +16,7 @@ This project focuses on evaluating the performance of the gemma-2b-it model on t
 ### Files
 - **gemma.ipynb**: Code to run gemma-2b-it on MMLU dataset. Expected to be run using Google Colab.
 - **dataAnalysis.ipynb**: Code to analyze the result from gemma.ipynb.
+- **extractField.py**: Code to create json file that has subjects as keys and field names as values
 
 ### Getting started
 1. upload gemma.ipynb to Google Colab and also upload data.json to google drive path: /content/drive/MyDrive/Colab Notebooks/CS 200/data.json
